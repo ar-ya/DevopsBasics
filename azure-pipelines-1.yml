@@ -29,6 +29,6 @@ steps:
     azureSubscription: 'CICD-ServiceConnection'
     Destination: 'AzureBlob'
     storage: 'storageaccountarya123'
-    ContainerName: '/DevopsBasic'
+    ContainerName: 'devopsbasic'
 
 
