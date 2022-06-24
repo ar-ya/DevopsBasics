@@ -34,6 +34,3 @@ steps:
     Destination: 'AzureVMs'
     storage: 'cicdstoragearyakumar'
     resourceGroup: 'SERVER2022_GROUP'
-    vmsAdminUserName: 'aryak'
-    vmsAdminPassword: 'It is warArya$'
-    TargetPath: '$env:windir\DevOpsBasic'
