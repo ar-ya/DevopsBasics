@@ -36,7 +36,7 @@ steps:
     azureSubscription: 'Visual Studio Enterprise Subscription – MPN (1072aca0-d739-4dd8-80c6-773927102910)'
     Destination: 'AzureVMs'
     storage: 'storageaccountarya123'
-    resourceGroup: 'xyz'
+    resourceGroup: 'AzureDevop-ResourceGroup'
     vmsAdminUserName: 'aryak'
     vmsAdminPassword: 'It is warArya$'
     TargetPath: 'It is warArya$'
