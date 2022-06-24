@@ -28,3 +28,15 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+
+- task: AzureFileCopy@4
+  inputs:
+    SourcePath: '$(Build.ArtifactStagingDirectory)'
+    azureSubscription: 'Visual Studio Enterprise Subscription – MPN (1072aca0-d739-4dd8-80c6-773927102910)'
+    Destination: 'AzureVMs'
+    storage: 'storageaccountarya123'
+    resourceGroup: 'xyz'
+    vmsAdminUserName: 'aryak'
+    vmsAdminPassword: 'It is warArya$'
+    TargetPath: 'It is warArya$'
