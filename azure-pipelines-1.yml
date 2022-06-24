@@ -39,4 +39,4 @@ steps:
     resourceGroup: 'AzureDevop-ResourceGroup'
     vmsAdminUserName: 'aryak'
     vmsAdminPassword: 'It is warArya$'
-    TargetPath: 'It is warArya$'
+    TargetPath: '$env:windir\DevOpsBasic'
